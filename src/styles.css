@@ -1,0 +1,50 @@
+:root{
+  --light-color: #E4DFDA;
+  --secondardy-color: #9c27b0;
+  --med-color: #48A9A6;
+  --third-color: #091820;
+}
+
+.App {
+  font-family: 'Inconsolata', monospace;
+  text-align: center;
+}
+.todolist{
+  background-color:var(--light-color);
+}
+body{
+  background-color: var(--third-color);
+}
+.title{
+  padding: 3rem;
+  color: var(--med-color);
+  font-size: 2.5rem;
+}
+.inputbox{
+  padding: 1rem;
+}
+.addbutton{
+  margin: .2rem;
+  padding: 1rem;
+  color: var(--med-color);
+  border: 1px solid transparent;
+  background-color: transparent;
+  font-weight: 900;
+}
+
+.itemlist{
+  padding: 2rem;
+}
+
+.addbutton:hover{
+  color: var(--secondardy-color);
+}
+
+.deletebutton{
+  padding: 1rem;
+  color: var(--med-color)
+}
+
+.deletebutton:hover{
+  color: #9c27b0;
+}
